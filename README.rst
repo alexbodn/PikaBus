@@ -126,6 +126,12 @@ In debian, without docker, in /etc/default/rabbitmq-server add the following:
     RABBITMQ_DEFAULT_USER=amqp
     RABBITMQ_DEFAULT_PASS=amqp
 
+And restart the server:
+
+.. code-block:: shell
+
+    sudo service rabbitmq-server restart
+
 The user amqp should be added too:
 
 .. code-block:: shell
