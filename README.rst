@@ -134,8 +134,6 @@ The user amqp should be added too:
     sudo rabbitmqctl set_permissions -p / amqp ".*" ".*" ".*"
     sudo rabbitmqctl set_user_tags amqp administrator
 
-..
-
 Open RabbitMq admin (user=amqp, password=amqp) at:
 
 .. code-block:: shell
